@@ -42,8 +42,3 @@ const buttonClass = computed(() => {
 
 </script>
 
-<script>
-  
-
-
-</script>
