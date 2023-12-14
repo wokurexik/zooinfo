@@ -13,6 +13,9 @@
           </div>
         </nav>
       </div>
+      <div class="text-[100px] text-white font-bold absolute left-[40%]  top-[90px]">
+        <slot/>
+      </div>
 </template>
 
 <script setup>
