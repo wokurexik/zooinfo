@@ -4,7 +4,7 @@
         <NuxtLink to="/"  class=" ml-5 font-extrabold text-[30px]">ZOOINFO.CZ</NuxtLink>
         <div class="nav-links flex gap-[50px] mr-5">
           <NuxtLink 
-          class="font-bold cursor-pointer text-[20px] my-auto">BLOG</NuxtLink>
+          to="/blog" class="font-bold cursor-pointer text-[20px] my-auto">BLOG</NuxtLink>
           <NuxtLink to="/">
             <BaseBtn intent="primary">
               <span>Kontakt</span>
@@ -25,7 +25,12 @@ import {cva} from "class-variance-authority"
 const props = defineProps({
     nav: {
         type: String,
-        validator: val => ["landscape", "jihlava", "danger", "text"].includes(val),
+        validator: val => [
+          "landscape", 
+          "jihlava", 
+          "brno", 
+          "text"
+        ].includes(val),
         default: "landscape"
     },
 })
@@ -37,7 +42,7 @@ const navClass = computed(() => {
       nav: {
         landscape: "nav-picture-1 text-white h-[300px]",
         jihlava: "nav-picture-2 text-white h-[300px]",
-        danger: "nav-picture-1",
+        brno: "nav-picture-3 text-white h-[300px]",
       },
     },
   })({
@@ -65,7 +70,11 @@ const navClass = computed(() => {
   
 }
 .nav-picture-3 {
-  background-image: url(../assets/images/landscape.png);
+  background-image: url(../assets/images/zoo-brno.jpg);
+  background-size:     cover;                   
+  background-repeat:   no-repeat;
+  background-position: center center;  
+
 }
 
 </style>

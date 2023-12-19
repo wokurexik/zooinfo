@@ -1,8 +1,8 @@
 <template>
     <Navbar 
       intent="primary"
-      nav="jihlava">
-        Jihlava
+      nav="brno">
+        Zoo Brno
     </Navbar>
     <section>
         <hr>
@@ -55,7 +55,7 @@
         </div>
 
         <div class="flex flex-wrap gap-5 mt-[100px] justify-center">
-          <BlogPost :path="'/posts/vysocina'"/>
+          <BlogPost :path="'/posts/jihomoravsky'"/>
         </div>
 
    
@@ -63,6 +63,7 @@
 
     </section>
 </template>
+
 
 
 <script >
@@ -86,3 +87,7 @@ export default {
   }
 };
 </script>
+
+
+
+
