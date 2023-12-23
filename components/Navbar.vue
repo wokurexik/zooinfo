@@ -1,7 +1,11 @@
 <template>
     <div :class="navClass" class="z-0" >
       <nav class=" flex justify-between pt-[20px] mx-5">
-        <NuxtLink to="/"  class=" ml-5 font-extrabold text-[30px]">ZOOINFO.CZ</NuxtLink>
+        <NuxtLink to="/"  class="name ml-5 font-extrabold text-[30px]">ZOOINFO.CZ</NuxtLink>
+        <div class="my-auto flex gap-[50px]">
+          <RegionMenu/>
+          <!-- <RegionMenu/> -->
+        </div>
         <div class="nav-links flex gap-[50px] mr-5">
           <NuxtLink 
           to="/blog" class="font-bold cursor-pointer text-[20px] my-auto">BLOG</NuxtLink>
@@ -21,6 +25,7 @@
 <script setup>
 import {computed} from "vue"
 import {cva} from "class-variance-authority"
+
 
 const props = defineProps({
     nav: {
@@ -42,7 +47,7 @@ const navClass = computed(() => {
       nav: {
         landscape: "nav-picture-1 text-white h-[300px]",
         jihlava: "nav-picture-2 text-white h-[300px]",
-        brno: "nav-picture-3 text-white h-[300px]",
+        brno: "text-white h-[300px]",
       },
     },
   })({
@@ -51,16 +56,27 @@ const navClass = computed(() => {
   });
 });
 
-
-
 </script>
-
 
 <script>
 
+export default {
+    data() {
+      return {
+        showNavbar: false,
+      };
+    },
+    methods: {
+      toggleNavbar() {
+        this.showNavbar = !this.showNavbar;
+      },
+    },
+  };
+
 </script>
 
-<style local >
+
+<style>
 
 .nav-picture-1 {
   background-image: url(../assets/images/landscape.png);
@@ -75,6 +91,29 @@ const navClass = computed(() => {
   background-repeat:   no-repeat;
   background-position: center center;  
 
+}
+
+.name{
+  background:
+    linear-gradient(
+      to right,
+      black,
+      black
+    ),
+    linear-gradient(
+      to right,
+      #F3B664,
+      #F3B664,
+      #F3B664
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.name:hover {
+  background-size: 0 3px, 100% 3px;
 }
 
 </style>

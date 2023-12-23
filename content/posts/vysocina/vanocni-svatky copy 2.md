@@ -1,7 +1,7 @@
 --- 
 title: "Vánoční svátky se zvířátky"
 date: 2023-10-06
-draft: false 
+darft: false
 tags: ["vanocni", "svatky"]
 thumbnail: "/img/vanocni-svatky-thumb.jpg"
 slug: "vanocni-svatky"
@@ -11,9 +11,7 @@ path: "/blog/vysocina/vanocni-svatky"
 
 Přijďte si užít vánoční období do naší zoo!
 
-
-
-prosince – zahájení Vánočního putování (od 23. 12. do 1.1.)
+23. prosince – zahájení Vánočního putování (od 23. 12. do 1.1.)
 Rodinný kvíz vás provede zoologickou zahradou k našim pokladům. Za vyplněný soutěžní lístek získáte drobnou odměnu, každý den budeme vybírat jednoho výherce balíčku suvenýrů a 2. ledna vybereme ze všech výherce rodinné prohlídky s průvodcem.
 Do zoo potmě – přijďte do zoo poslední hodinu (15.00 – 16.00) a budete mít vstupné pouze za 50 korun! V areálu můžete zůstat až do 18 hodin
 
@@ -34,10 +32,8 @@ Vánoční večerní prohlídka pro rodiny s dětmi „Večerníček v zoo“  (
 29. prosince – vánoční komentovaná krmení u prasat visajanských ve 13.00, u medvědů malajských ve 13.30 a u lam guanako ve 14.00
 Do zoo potmě – přijďte do zoo poslední hodinu (15.00 – 16.00) a budete mít vstupné pouze za 50 korun! V areálu můžete zůstat až do 18 hodin
 
-30. prosince – otevřeno na pokladnách od 9 do 16 hodin, v areálu můžete zůstat až do 18 hodin
+ 30. prosince – otevřeno na pokladnách od 9 do 16 hodin, v areálu můžete zůstat až do 18 hodin
 Do zoo potmě – přijďte do zoo poslední hodinu (15.00 – 16.00) a budete mít vstupné pouze za 50 korun!
-
-
 
 31. prosince – otevřeno na pokladnách od 9 do 16 hodin, v areálu můžete zůstat až do 18 hodin
 Do zoo potmě – přijďte do zoo poslední hodinu (15.00 – 16.00) a budete mít vstupné pouze za 50 korun!

@@ -6,40 +6,47 @@
         required: true,
       },
     },
+    methods: {
+        formatDate(date) {
+        const options = { year: 'numeric', month: 'long', day: 'numeric' }
+        return new Date(date).toLocaleDateString('cs', options)
+        },
+    },
   }
 </script>
 
 <template>
     <NuxtLayout name="blog">
-
-        <article class="bg-white rounded-2xl">
-            <ContentDoc
-            :path="path" v-slot="{doc}">
-            
-            <!-- Header -->
-            
-            <header>
-                <div class="text-center p-5">
-                    <h1 class="text-4xl font-semibold">{{ doc.title }}</h1>
-                    <div class="text-gray-500 text-sm mt-2">
-                        {{ doc.date }} 
-                    </div>
-                </div>
-                
-                <img :src="doc.thumbnail" class="w-full h-full object-cover" alt="">
-            </header>
-            
-            <!-- ./ Header -->
-            
-            <!-- Content area -->
-            <div class="p-5 content">
-                <ContentRenderer :value="doc"></ContentRenderer>
+      <div class="flex justify-center mt-[100px]">
+        <article class="bg-white rounded-2xl max-w-4xl shadow-md">
+          <ContentDoc
+          :path="path" v-slot="{doc}">
+          
+          <!-- Header -->
+          
+          <header>
+            <div class="text-center p-5">
+              <h1 class="text-4xl font-semibold">{{ doc.title }}</h1>
+              <div class="text-gray-500 text-sm mt-2">
+                {{ formatDate(doc.date)}}
+              </div>
             </div>
             
-            <!-- ./ Content area -->
-            
+            <img :src="doc.thumbnail" class="w-full h-full object-cover" alt="">
+          </header>
+          
+          <!-- ./ Header -->
+          
+          <!-- Content area -->
+          <div class="p-5 content">
+            <ContentRenderer :value="doc"></ContentRenderer>
+          </div>
+          
+          <!-- ./ Content area -->
+          
         </ContentDoc>
-    </article>
+      </article>
+    </div>
 </NuxtLayout>
 </template>
 

@@ -1,14 +1,5 @@
-<template lang="">
+<template>
     <div>
-     
+        <slot/>
     </div>
-    <slot/>
 </template>
-
-<script>
-
-</script>
-
-<style lang="">
-    
-</style>

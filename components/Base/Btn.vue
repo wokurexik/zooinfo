@@ -28,8 +28,8 @@ const buttonClass = computed(() => {
   return cva("inline-flex items-center justify-center cursor-pointer min-h-[32px] font-bold", {
     variants: {
       intent: {
-        primary: "bg-black text-white hover:bg-gray-800 py-2 text-[20px] rounded  px-[30px] ",
-        secondary: "bg-black text-white hover:bg-gray-800 py-3 text-[25px] rounded-lg  px-[50px] ",
+        primary: "bg-[#F3B664] text-white hover:bg-[#E6A54C] py-2 text-[20px] rounded  px-[30px] ",
+        secondary: "text-white bg-[#F3B664] py-3 text-[25px] rounded-lg  px-[50px] ",
         danger: "bg-red-600 text-white hover:bg-red-500",
       },
     },

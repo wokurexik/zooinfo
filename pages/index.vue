@@ -2,13 +2,14 @@
 <template>
       <Navbar 
       intent="primary"
-      nav="primary">¨
+      nav="primary">
 </Navbar>
       <Map/>
 
-      <div>
-            <WeatherDisplay :temperature="temperature" />
-      </div>
+  <div class="text-3xl font-bold text-center mb-[100px] mt-[0px]">
+    <h2>Novinky z Kraje Vysočina</h2>
+  </div>
+  <BlogPostLatest />
 
 </template>
 

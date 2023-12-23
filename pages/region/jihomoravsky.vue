@@ -1,8 +1,14 @@
 <template>
-    <div class="container ">
 
+        <Navbar 
+            intent="primary"
+            nav="none"
+            />
+        <div>
+            <h1 class="text-center font-extrabold text-5xl mb-11 mt-11">Jihomoravský kraj</h1>
+        </div>
         <div class="map w-[500px]">
-            <img src="../../assets/regions/jihomoravsky.svg" alt="">
+            <img class="w-[500px]" src="../../assets/regions/jihomoravsky.svg" alt="">
 
             <div class="point rounded-lg has-tooltip top-[100px] left-[300px]">
                 <NuxtLink href="../zoo/brno" >
@@ -26,7 +32,6 @@
             </div>
         </div>
         
-    </div>
     
 
 
@@ -34,17 +39,6 @@
 
 <style scoped>
 
-
-.arrow {
-    width: 0px;
-   height: 0px;
-   border-style: solid;
-   border-width: 0 20px 40px 20px;
-   border-color: transparent transparent #006833 transparent;
-   transform: rotate(270deg);
-   right: 147px;
-   position: absolute;
-}
 
 .map {
     position:relative;

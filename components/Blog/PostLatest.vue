@@ -14,29 +14,30 @@ export default {
         },
     },
 }
+
+
 </script>
 
 <template>
-    <div class="justify-center flex ">
-        <div class=" w-[1500px] justify-center gap-5 flex-wrap flex">
-            <ContentList
+    <div class="flex flex-wrap gap-5 justify-center">
+        <ContentList
             :path="path"
             fields="title,date,thumbnail"
             :query="{
                 draft: false,
                 sort: [
-                    {
-                        date: -1,
-                    },
+                {
+                    date: -1,
+                },
                 ],
             }"
             v-slot="{ list }"
-            >
+        >
             <!-- Blog Card  -->
             <div
-            v-for="blog in list"
+            v-for="blog in list.slice(0, 3)" 
             :key="blog._path"
-            class="blog-card mt-5 w-[350px]  bg-white rounded-2xl overflow-hidden mb-4"
+            class="blog-card mt-5 w-[400px]  bg-white rounded-2xl overflow-hidden mb-4"
             >
             <div class="h-[200px]  relative">
                 <img
@@ -48,11 +49,11 @@ export default {
             </div>
             
             <div class="blog-card--meta my-4 ml-4">
-                <h3 class="text-2xl font-bold">
+                <h3 class="text-xl font-bold">
                     <NuxtLink :to="blog.path">{{ blog.title }}</NuxtLink>
                 </h3>
-                <div class="text-sm text-gray-500 mt-px block">{{ formatDate(blog.date) }}</div>
-                <div v-if="blog.tags" class="mt-2 text-xs">
+                <div class="text-sm font-medium text-gray-500 mt-px block">{{ formatDate(blog.date) }}</div>
+                <div v-if="blog.tags" class="mt-2 text-xs font-medium">
                     <span v-for="tag in blog.tags" class="p-1 rounded bg-gray-100 mr-2">
                         {{ tag }}</span
                         >
@@ -62,5 +63,4 @@ export default {
             <!-- ./ Blog Card  -->
         </ContentList>
     </div>
-</div>
 </template>

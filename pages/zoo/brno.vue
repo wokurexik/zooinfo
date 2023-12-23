@@ -1,9 +1,11 @@
 <template>
+  <div class="nav-picture-3">
     <Navbar 
-      intent="primary"
-      nav="brno">
-        Zoo Brno
-    </Navbar>
+    intent="primary"
+    nav="brno">
+    Zoo Brno
+  </Navbar>
+</div>
     <section>
         <hr>
         <div class="flex gap-[50px] justify-center mt-[20px] mb-[100px]">
@@ -55,7 +57,7 @@
         </div>
 
         <div class="flex flex-wrap gap-5 mt-[100px] justify-center">
-          <BlogPost :path="'/posts/jihomoravsky'"/>
+          <BlogPostLatest :path="'/posts/jihomoravsky'"/>
         </div>
 
    
@@ -87,7 +89,4 @@ export default {
   }
 };
 </script>
-
-
-
 
