@@ -5,7 +5,7 @@
 
 <template>
   <div>
-    <BlogPage :path="`/posts/vysocina/${slug}`"/>
+    <BlogPage :path="`/posts/jihomoravsky-kraj/zoo-hodonin/${slug}`"/>
   </div>
 </template>
 

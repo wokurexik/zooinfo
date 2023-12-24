@@ -55,10 +55,10 @@
           </div>
           
           <div class="text-3xl font-bold text-center mt-[100px]">
-            <h2>Novinky z Kraje Vysočina</h2>
+            <h2>Novinky ze Zoo Jihlava</h2>
           </div>
           <div class=" mt-11">
-            <BlogPostLatest :path="'/posts/vysocina'"/>
+            <BlogPostLatest :path="'/posts/vysocina/zoo-jihlava'"/>
           </div>          
         </section>
       </template>

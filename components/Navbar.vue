@@ -46,7 +46,7 @@ const navClass = computed(() => {
     variants: {
       nav: {
         landscape: "nav-picture-1 text-white h-[300px]",
-        jihlava: "nav-picture-2 text-white h-[300px]",
+        jihlava: "nav-picture-2 text-white  h-[300px]",
         brno: "text-white h-[300px]",
       },
     },
