@@ -5,7 +5,7 @@ darft: false
 tags: ["vanocni", "svatky"]
 thumbnail: "/img/vanocni-svatky-thumb.jpg"
 slug: "vanocni-svatky"
-path: "/blog/vysocina/vanocni-svatky"
+path: "/blog/vysocina/zoo-jihlava/vanocni-svatky"
 ---
 
 

@@ -11,6 +11,12 @@
   </div>
   <BlogPostLatest />
 
+  <div class="flex justify-center mt-5">
+    <BaseBtn intent="secondary">
+      Zobrazit víc
+    </BaseBtn>
+  </div>
+
 </template>
 
 
