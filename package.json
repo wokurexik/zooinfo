@@ -25,6 +25,7 @@
     "@nuxt/content": "^2.9.0",
     "axios": "^1.6.2",
     "class-variance-authority": "^0.7.0",
-    "firebase": "^10.7.1"
+    "firebase": "^10.7.1",
+    "flowbite": "^2.2.1"
   }
 }

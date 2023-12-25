@@ -1,11 +1,11 @@
 --- 
-title: "Test"
+title: "Test1"
 date: 2019-10-08
 darft: false
 tags: ["Jihomoravsky kraj", "Hello World"]
 thumbnail: "/img/hello.jpg"
-slug: "hello-world"
-path: "/blog/jihomoravsky/hello-world"
+slug: "hello-world1"
+path: "/blog/jihomoravsky-kraj/zoo-brno/hello-world"
 ---
 
 

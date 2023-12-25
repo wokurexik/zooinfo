@@ -1,6 +1,6 @@
 <template>
     <Popover class="relative ">
-      <PopoverButton class="toggle-button inline-flex  items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900">
+      <PopoverButton :class="btnClass">
         <span>Kam jedete?</span>
         <ChevronDownIcon class="arrow-drop h-5 w-5" aria-hidden="true" />
       </PopoverButton>
@@ -24,25 +24,55 @@
   </template>
 
 <script setup>
+
+import {computed} from "vue"
+import {cva} from "class-variance-authority"
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import { ChevronDownIcon} from '@heroicons/vue/20/solid'
 
 const regions = [
-  { name: 'Středočeský',  href: '#',  },
-  { name: 'Hl. město Praha',  href: '#',  },
-  { name: 'Jihočeský', href: '#',},
-  { name: 'Plzeňský', href: '#', },
-  { name: 'Karlovarský', href: '#', },
-  { name: 'Ústecký', href: '#', },
-  { name: 'Liberecký',  href: '#',  },
-  { name: 'Královéhradecký', href: '#',},
-  { name: 'Pardubický', href: '#', },
-  { name: 'Vysočina', href: '#', },
-  { name: 'Jihomoravský', href: '#', },
-  { name: 'Olomoucký', href: '#', },
-  { name: 'Moravskoslezský', href: '#', },
-  { name: 'Zlínský', href: '#', },
+  { name: 'Středočeský',  href: '/region/stredocesky-kraj',  },
+  { name: 'Hl. město Praha',  href: '/region/hlmesto-praha',  },
+  { name: 'Jihočeský', href: '/region/jihocesky-kraj',},
+  { name: 'Plzeňský', href: '/region/plzensky-kraj', },
+  { name: 'Karlovarský', href: '/region/karlovarsky-kraj', },
+  { name: 'Ústecký', href: '/region/ustecky-kraj', },
+  { name: 'Liberecký',  href: '/region/liberecky-kraj',  },
+  { name: 'Královéhradecký', href: '/region/kralovehradecky-kraj',},
+  { name: 'Pardubický', href: '/region/pardubicky-kraj', },
+  { name: 'Vysočina', href: '/region/vysocina', },
+  { name: 'Jihomoravský', href: '/region/jihomoravsky-kraj', },
+  { name: 'Olomoucký', href: '/region/olomoucky-kraj', },
+  { name: 'Moravskoslezský', href: '/region/moravskoslezky-kraj', },
+  { name: 'Zlínský', href: '/region/zlinsky-kraj', },
 ]
+
+
+const props = defineProps({
+    btn: {
+        type: String,
+        validator: val => [
+          "white",
+          "black"
+        ].includes(val),
+        default: "black"
+    },
+})
+
+
+const btnClass = computed(() => {
+  return cva("toggle-button inline-flex  items-center gap-x-1 text-lg font-semibold leading-6 ", {
+    variants: {
+      btn: {
+        white: "text-white",
+        black: "text-gray-900",
+      },
+    },
+  })({
+    btn: props.btn,
+   
+  });
+});
 </script>
 
 <style>

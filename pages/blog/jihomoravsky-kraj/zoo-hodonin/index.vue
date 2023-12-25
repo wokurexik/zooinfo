@@ -1,6 +1,9 @@
 <template>
-   <NuxtLayout name="blog">
-        <BlogPost :path="'/posts/jihomoravsky-kraj/zoo-hodonin'"/>
-    </NuxtLayout>
-</template>
-
+    <NuxtLayout name="blog">
+     <BlogFilterBtn/>
+     <h1 class="text-3xl mt-11 mb-11 text-center font-semibold">Novinky ze Zoo Hodonín</h1>
+         <BlogPost :path="'/posts/jihomoravsky-kraj/zoo-hodonin'"/>
+     </NuxtLayout>
+ </template>
+ 
+ 

@@ -5,7 +5,7 @@ darft: false
 tags: ["Jihomoravsky kraj", "Hello World"]
 thumbnail: "/img/hello.jpg"
 slug: "hello-world"
-path: "/blog/jihomoravsky/hello-world"
+path: "/blog/jihomoravsky-kraj/zoo-brno/hello-world"
 ---
 
 

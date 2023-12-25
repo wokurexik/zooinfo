@@ -1,10 +1,10 @@
 --- 
-title: "Vánoční svátky se zvířátky"
+title: "Vánoční svátky se zvířátky1"
 date: 2023-10-06
 darft: false
 tags: ["vanocni", "svatky"]
 thumbnail: "/img/vanocni-svatky-thumb.jpg"
-slug: "vanocni-svatky"
+slug: "vanocni-svatky1"
 path: "/blog/vysocina/zoo-jihlava/vanocni-svatky"
 ---
 

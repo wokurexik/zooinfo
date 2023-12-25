@@ -18,7 +18,6 @@ export default {
 
 <template>
 
-<BlogFilterBtn/>
 
     <div class="justify-center flex ">
         <div class=" w-[1500px] justify-center gap-5 flex-wrap flex">

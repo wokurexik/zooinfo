@@ -17,6 +17,7 @@
 
 <template>
     <NuxtLayout name="blog">
+      <BlogFilterBtn/>
       <div class="flex justify-center mt-[100px]">
         <article class="bg-white rounded-2xl max-w-4xl shadow-md">
           <ContentDoc

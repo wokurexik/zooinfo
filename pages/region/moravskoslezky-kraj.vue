@@ -5,10 +5,10 @@
         nav="none"
         />
     <div>
-        <h1 class="text-center font-extrabold text-5xl mb-11 mt-11">Jihomoravský kraj</h1>
+        <h1 class="text-center font-extrabold text-5xl mb-11 mt-11">Moravskoslezský kraj</h1>
     </div>
     <div class="map w-[500px]">
-        <img class="w-[500px]" src="../../assets/regions/jihomoravsky.svg" alt="">
+        <img class="w-[500px]" src="../../assets/regions/moravskoslezsky.svg" alt="">
 
         <div class="point rounded-lg has-tooltip top-[100px] left-[300px]">
             <NuxtLink href="../zoo/zoo-brno" >

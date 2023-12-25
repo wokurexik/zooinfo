@@ -1,9 +1,5 @@
 <template>
-
-      
-
             <Navbar 
-            intent="primary"
             nav="none"
             />
             <div>
@@ -25,7 +21,7 @@
                 <div class="point rounded-lg has-tooltip top-[200px] left-[200px]">
                     <NuxtLink href="../zoo/zoo-jihlava" >
                         <div class="arrow"></div>
-                        <p class="font-bold mt-2 px-5 text-white">MiniZoo Kokot</p>
+                        <p class="font-bold mt-2 px-5 text-white">MiniZoo Jihlava</p>
                         <div class="rounded-bl-lg rounded-br-lg tooltip">
                             <p class="text-[15px] mt-3">Hodnocení</p>
                             <img src="../../assets/regions/stars/four.svg" alt="">

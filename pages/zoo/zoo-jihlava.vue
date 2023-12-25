@@ -1,9 +1,7 @@
 <template>
     <Navbar 
-      intent="primary"
-      nav="jihlava">
-        Jihlava
-    </Navbar>
+    nav="jihlava" 
+    btn="white"/>
     <section>
         <hr>
         <div class="flex gap-[50px] justify-center mt-[20px] mb-[100px]">
