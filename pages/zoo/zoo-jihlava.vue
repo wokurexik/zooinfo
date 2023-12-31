@@ -81,7 +81,13 @@ export default {
     } catch (error) {
       console.error('Error fetching weather data:', error);
     }
-  }
+  },
+   route: {
+    // Define the custom path for this component
+    path: '/zoo-jihlava'
+  },
+
+
 };
 
 </script>

@@ -10,20 +10,10 @@
     <div class="map w-[500px]">
         <img class="w-[500px]" src="../../assets/regions/moravskoslezsky.svg" alt="">
 
-        <div class="point rounded-lg has-tooltip top-[100px] left-[300px]">
+        <div class="point rounded-lg has-tooltip top-[200px] left-[300px]">
             <NuxtLink href="../zoo/zoo-brno" >
                 <div class="arrow"></div>
-                <p class="font-bold mt-2 px-5 text-white">MiniZoo Kokot</p>
-                <div class="rounded-bl-lg rounded-br-lg tooltip">
-                    <p class="text-[15px] mt-3">Hodnocení</p>
-                    <img src="../../assets/regions/stars/four.svg" alt="">
-                </div>
-            </NuxtLink>
-        </div>
-        <div class="point rounded-lg has-tooltip top-[200px] left-[100px]">
-            <NuxtLink href="../zoo/zoo-brno" >
-                <div class="arrow"></div>
-                <p class="font-bold mt-2 px-5 text-white">MiniZoo Kokot</p>
+                <p class="font-bold mt-2 px-5 text-white text-center">Zoo Ostrava</p>
                 <div class="rounded-bl-lg rounded-br-lg tooltip">
                     <p class="text-[15px] mt-3">Hodnocení</p>
                     <img src="../../assets/regions/stars/four.svg" alt="">
@@ -45,7 +35,7 @@ position:relative;
 margin: 0 auto;
 }
 .point{
-width: auto;
+width: 180px;
 height: 40px;
 /* border-radius: 20PX; */
 position:absolute;
@@ -55,7 +45,7 @@ justify-content: center;
 background-color:#006833;
 }
 .tooltip {
-width: auto;
+width: 180px;
 color: white;
 padding-inline: 10px !important;
 padding: 10px 0px 10px 0px;

@@ -1,6 +1,5 @@
 <template>
     <div :class="navClass" class="z-0" >
-
         <nav class=" flex justify-between pt-[20px] mx-5">
           <NuxtLink to="/"  class="name ml-5 font-extrabold text-[30px]">ZOOINFO.CZ</NuxtLink>
           <div class="my-auto flex gap-[50px]">

@@ -10,26 +10,46 @@
     <div class="map w-[500px]">
         <img class="w-[500px]" src="../../assets/regions/jihocesky.svg" alt="">
 
-        <div class="point rounded-lg has-tooltip top-[100px] left-[300px]">
-            <NuxtLink href="../zoo/zoo-brno" >
-                <div class="arrow"></div>
-                <p class="font-bold mt-2 px-5 text-white">MiniZoo Kokot</p>
-                <div class="rounded-bl-lg rounded-br-lg tooltip">
-                    <p class="text-[15px] mt-3">Hodnocení</p>
-                    <img src="../../assets/regions/stars/four.svg" alt="">
-                </div>
-            </NuxtLink>
-        </div>
         <div class="point rounded-lg has-tooltip top-[200px] left-[100px]">
-            <NuxtLink href="../zoo/zoo-brno" >
-                <div class="arrow"></div>
-                <p class="font-bold mt-2 px-5 text-white">MiniZoo Kokot</p>
-                <div class="rounded-bl-lg rounded-br-lg tooltip">
-                    <p class="text-[15px] mt-3">Hodnocení</p>
-                    <img src="../../assets/regions/stars/four.svg" alt="">
-                </div>
-            </NuxtLink>
-        </div>
+                <NuxtLink href="../zoo/zoo-brno" >
+                    <div class="arrow"></div>
+                    <p class="font-bold mt-2 px-5 text-white text-center">Zoo Hluboká</p>
+                    <div class="rounded-bl-lg rounded-br-lg tooltip">
+                        <p class="text-[15px] mt-3">Hodnocení</p>
+                        <img src="../../assets/regions/stars/four.svg" alt="">
+                    </div>
+                </NuxtLink>
+            </div>
+            <div class="point rounded-lg has-tooltip top-[100px] left-[100px]">
+                <NuxtLink href="../zoo/zoo-brno" >
+                    <div class="arrow"></div>
+                    <p class="font-bold mt-2 px-5 text-white text-center">Zoo Dvorec</p>
+                    <div class="rounded-bl-lg rounded-br-lg tooltip">
+                        <p class="text-[15px] mt-3">Hodnocení</p>
+                        <img src="../../assets/regions/stars/four.svg" alt="">
+                    </div>
+                </NuxtLink>
+            </div>
+            <div class="point rounded-lg has-tooltip top-[300px] left-[200px]">
+                <NuxtLink href="../zoo/zoo-brno" >
+                    <div class="arrow"></div>
+                    <p class="font-bold mt-2 px-5 text-white text-center">Zoo na Hrádečku</p>
+                    <div class="rounded-bl-lg rounded-br-lg tooltip">
+                        <small class="text-[15px] mt-3">Hodnocení</small>
+                        <img src="../../assets/regions/stars/four.svg" alt="">
+                    </div>
+                </NuxtLink>
+            </div>
+            <div class="point rounded-lg has-tooltip top-[150px] left-[400px]">
+                <NuxtLink href="../zoo/zoo-brno" >
+                    <div class="arrow"></div>
+                    <p class="font-bold mt-2 px-5 text-white text-center">Zoo Tábo</p>
+                    <div class="rounded-bl-lg rounded-br-lg tooltip">
+                        <small class="text-[15px] mt-3">Hodnocení</small>
+                        <img src="../../assets/regions/stars/four.svg" alt="">
+                    </div>
+                </NuxtLink>
+            </div>
     </div>
     
 
@@ -45,7 +65,7 @@ position:relative;
 margin: 0 auto;
 }
 .point{
-width: auto;
+width: 180px;
 height: 40px;
 /* border-radius: 20PX; */
 position:absolute;
@@ -54,8 +74,11 @@ align-items: center;
 justify-content: center;
 background-color:#006833;
 }
+
 .tooltip {
-width: auto;
+box-shadow: 1px 10px 10px #004b24;
+border-top: none;
+width: 180px;
 color: white;
 padding-inline: 10px !important;
 padding: 10px 0px 10px 0px;
