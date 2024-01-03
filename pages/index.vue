@@ -1,28 +1,75 @@
 
 <template>
+    <div :class="backgroundClass" class="nav-img">
       <Navbar 
-      intent="primary"
-      nav="primary">
-</Navbar>
+      btn="white"
+      nav="homepage">
+    </Navbar>
+    <div class="flex gap-[0Px]  mt-[150Px] mb-[100px] h-[500px] align-middle justify-center">
+      <div class="mt-11 text-5xl font-extrabold ml-11 ">
+        <h1 class="w-[650Px] leading-[65px] text-white mb-8"> Prozkoumejte <span class="text-[--primary]">{{ dynamicText }}</span> <br> po celé České Republice </h1>
+        <h2 class="font-bold text-white">Kam jedete<span class="text-[--primary]">?</span></h2>
+      </div>
       <Map/>
-
-
-<div class="text-3xl font-bold text-center mb-[100px] mt-[0px]">
-  <h2>Novinky</h2>
+    </div>
 </div>
-<BlogPostLatest />
 
-<div class="flex justify-center mt-5">
-  <BaseBtn intent="secondary">
-    Zobrazit víc
-  </BaseBtn>
-</div>
+<TheMostVisited/>
 
 </template>
 
 <script>
-
+export default {
+  data() {
+    return {
+      dynamicText: "ZOO",
+      textIndex: 0,
+      currentBackgroundIndex: 0,
+    };
+  },
+  computed: {
+    backgroundClass() {
+      return `background-${this.currentBackgroundIndex}`;
+    },
+  },
+  mounted() {
+    this.intervalIdText = setInterval(this.changeText, 5000);
+    this.intervalIdBackground = setInterval(this.changeBackgroundImage, 10000);
+  },
+  beforeDestroy() {
+    clearInterval(this.intervalIdText);
+    clearInterval(this.intervalIdBackground);
+  },
+  methods: {
+    changeText() {
+      const texts = ["ZOO", "MINIZOO", "ZOOPARKY"];
+      this.dynamicText = texts[this.textIndex];
+      this.textIndex = (this.textIndex + 1) % texts.length;
+    },
+    changeBackgroundImage() {
+      this.currentBackgroundIndex = (this.currentBackgroundIndex + 1) % this.backgroundImages.length;
+    },
+  },
+};
 </script>
-<style>
 
+<style scoped>
+.nav-img {
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+}
+
+.background-0 {
+  background-image: url('~/assets/images/nav-img.png');
+}
+
+.background-1 {
+  background-image: url('~/assets/images/nav-img.png');
+}
+
+.background-2 {
+  background-image: url('~/assets/images/nav-img.png');
+}
 </style>

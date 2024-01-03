@@ -27,8 +27,6 @@
             </Popover>
           </div>
           <div class="nav-links flex gap-[50px] mr-5">
-            <NuxtLink 
-            to="/blog" class="font-bold cursor-pointer text-[20px] my-auto">BLOG</NuxtLink>
             <NuxtLink to="/">
               <BaseBtn >
                 <span>Kontakt</span>
@@ -37,8 +35,10 @@
           </div>
         </nav>
     </div>
-      <div class="text-[100px] text-white font-bold absolute left-[40%]  top-[90px]">
-        <slot/>
+      <div class="text-[100px] text-white font-bold absolute left-[50%] top-[90px]">
+        <div class="relative left-[-50%]">
+          <slot/>
+        </div>
       </div>
 </template>
 
@@ -94,8 +94,8 @@ const navClass = computed(() => {
     variants: {
       nav: {
         landscape: "nav-picture-1 text-white h-[300px]",
-        jihlava: "nav-picture-2 text-white  h-[300px]",
-        brno: "text-white h-[300px]",
+        homepage: "text-white h-[100px]",
+        zoo: "text-white  h-[300px]",
       },
     },
   })({
@@ -154,13 +154,20 @@ export default {
   background-position: center center;  
 
 }
+.nav-picture-4 {
+  background-image: url(../assets/images/zoo-praha.jpg);
+  background-size:     cover;                   
+  background-repeat:   no-repeat;
+  background-position: center center;  
 
-.name{
+}
+
+.name {
   background:
     linear-gradient(
       to right,
-      black,
-      black
+      rgb(255, 255, 255),
+      rgb(255, 255, 255)
     ),
     linear-gradient(
       to right,

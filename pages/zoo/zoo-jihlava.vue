@@ -1,7 +1,11 @@
 <template>
+  <div class="nav-picture-2">
     <Navbar 
-    nav="jihlava" 
-    btn="white"/>
+    nav="zoo" 
+    btn="white">
+    Zoo Jihlava
+  </Navbar>
+  </div>
     <section>
         <hr>
         <div class="flex gap-[50px] justify-center mt-[20px] mb-[100px]">
@@ -51,20 +55,14 @@
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81866.24621303468!2d14.336171150207495!3d50.117730085983816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bead4f9db039b%3A0x96d9543c02ebb5bd!2sZoo%20Praha!5e0!3m2!1scs!2scz!4v1702335949034!5m2!1scs!2scz" width="400" height="300" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
-          
-          <div class="text-3xl font-bold text-center mt-[100px]">
-            <h2>Novinky ze Zoo Jihlava</h2>
+          <div class="flex flex-wrap ">
           </div>
-          <div class=" mt-11">
-            <BlogPostLatest :path="'/posts/vysocina/zoo-jihlava'"/>
-          </div>          
         </section>
       </template>
 
 
 <script >
 import axios from 'axios';
-
 
 export default {
   data() {
@@ -82,11 +80,6 @@ export default {
       console.error('Error fetching weather data:', error);
     }
   },
-   route: {
-    // Define the custom path for this component
-    path: '/zoo-jihlava'
-  },
-
 
 };
 

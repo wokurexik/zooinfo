@@ -21,7 +21,6 @@
             </NuxtLink>
         </div>
     </div>
-    
 
 
 

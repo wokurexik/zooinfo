@@ -10,6 +10,9 @@
     @apply visible z-50;
   }
   
+:root{
+  --primary: #F3B664;
+}
 
   .arrow {
     width: 0px;
@@ -21,3 +24,4 @@
   left: -35px;
    position: absolute;
 }
+

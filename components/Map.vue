@@ -1,6 +1,5 @@
 
 <template>
-  <div class="container">
     <svg xmlns="http://www.w3.org/2000/svg" width="1412.303" height="808.372" viewBox="0 0 1412.303 808.372">
       <g id="Blank_map_of_the_Czech_Republic" transform="translate(0.031 -0.215)">
         <a href="/region/olomoucky-kraj">
@@ -50,22 +49,14 @@
         <rect id="rect88" width="10.873" height="11.513" rx="1.293" transform="translate(1079.4 694.35)" fill="#fff" stroke="rgba(0,255,0,0.01)" stroke-width="0.333"/>
       </g>
     </svg>
-    </div>
-
 
 </template>
 
 <style scoped>
 
-.container {
-  display: flex;
-  margin-top: 100px;
-  margin: 0 auto;;
-  justify-content: center;
-}
-
 svg {
-  width: 800px;
+  height: 400px;
+  width: 800Px;
 }
 
 [id^='path']:hover {

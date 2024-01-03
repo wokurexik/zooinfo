@@ -1,8 +1,8 @@
 <template>
   <div class="nav-picture-3">
     <Navbar 
-    intent="primary"
-    nav="brno">
+    btn="white"
+    nav="zoo">
     Zoo Brno
   </Navbar>
 </div>
