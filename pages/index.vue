@@ -5,14 +5,15 @@
       btn="white"
       nav="homepage">
     </Navbar>
-    <div class="flex gap-[0Px]  mt-[150Px] mb-[100px] h-[500px] align-middle justify-center">
+    <div class="flex gap-[0Px]  mt-[150Px] h-[500px] align-middle justify-center">
       <div class="mt-11 text-5xl font-extrabold ml-11 ">
         <h1 class="w-[650Px] leading-[65px] text-white mb-8"> Prozkoumejte <span class="text-[--primary]">{{ dynamicText }}</span> <br> po celé České Republice </h1>
         <h2 class="font-bold text-white">Kam jedete<span class="text-[--primary]">?</span></h2>
       </div>
       <Map/>
     </div>
-</div>
+  </div>
+  <ZooTypes/>
 
 <TheMostVisited/>
 
@@ -47,7 +48,7 @@ export default {
       this.textIndex = (this.textIndex + 1) % texts.length;
     },
     changeBackgroundImage() {
-      this.currentBackgroundIndex = (this.currentBackgroundIndex + 1) % this.backgroundImages.length;
+      this.currentBackgroundIndex = (this.currentBackgroundIndex + 1) % 3;
     },
   },
 };
@@ -66,7 +67,7 @@ export default {
 }
 
 .background-1 {
-  background-image: url('~/assets/images/nav-img.png');
+  background-image: url('~/assets/images/landscape.png');
 }
 
 .background-2 {
