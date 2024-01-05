@@ -55,7 +55,13 @@
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81866.24621303468!2d14.336171150207495!3d50.117730085983816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bead4f9db039b%3A0x96d9543c02ebb5bd!2sZoo%20Praha!5e0!3m2!1scs!2scz!4v1702335949034!5m2!1scs!2scz" width="400" height="300" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
-          <div class="flex flex-wrap ">
+          <div class="flex imgs-div flex-wrap gap-3 w-[1000Px] mx-auto mt-[200Px] justify-center">
+            <img class="w-[300px] h-[300px] object-cover" src="../../assets/images/placeholder.png" alt="">
+            <img class="w-[300px] h-[300px] object-cover" src="../../assets/images/placeholder.png" alt="">
+            <img class="w-[300px] h-[300px] object-cover" src="../../assets/images/placeholder.png" alt="">
+            <img class="w-[300px] h-[300px] object-cover" src="../../assets/images/placeholder.png" alt="">
+            <img class="w-[300px] h-[300px] object-cover" src="../../assets/images/placeholder.png" alt="">
+            <img class="w-[300px] h-[300px] object-cover" src="../../assets/images/placeholder.png" alt="">
           </div>
         </section>
       </template>
@@ -85,3 +91,7 @@ export default {
 
 </script>
 
+<style scoped>
+  
+
+</style>
