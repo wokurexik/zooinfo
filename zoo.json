@@ -1,0 +1,26 @@
+{
+    "zoo-jihlava": {
+      "id": 1,
+      "title": "Zoo Jihlava",
+      "content": "V údolí říčky Jihlávky leží Zoo Jihlava, která je domovem více než 200 druhů zvířat. V posledních letech zoologická zahrada prochází velkým vývojem a postavila několik nových pavilonů. Zoo je známá tím, že chová perské levharty, které mají v České republice pouze v Zoo Dvůr Králové.",
+      "website": "/",
+      "city": "Brno",
+      "openHours": "9:00 - 16:00",
+      "ticketPrice": "150 Kč / 100 Kč",
+      "mapLink": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d41574.28733132593!2d15.569331297656266!3d49.363637102814955!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470d1a6d95913ee9%3A0x7fe8c368f01569f7!2sZoologick%C3%A1%20zahrada%20Jihlava!5e0!3m2!1scs!2scz!4v1704482289331!5m2!1scs!2scz",
+      "reviewStars":"4,7",
+      "imgs":[
+        ""
+      ]
+    },
+    "zoo-brno": {
+      "id": 2,
+      "title": "Zoo Brno",
+      "content": "dej piko"
+    },
+    "default": {
+      "title": "Default Information",
+      "content": "This is the default content."
+    }
+  }
+
