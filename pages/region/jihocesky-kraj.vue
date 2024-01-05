@@ -11,7 +11,7 @@
         <img class="w-[500px]" src="../../assets/regions/jihocesky.svg" alt="">
 
         <div class="point rounded-lg has-tooltip top-[200px] left-[100px]">
-                <NuxtLink href="../zoo/zoo-brno" >
+                <NuxtLink href="../zoo-hluboka" >
                     <div class="arrow"></div>
                     <p class="font-bold mt-2 px-5 text-white text-center">Zoo Hluboká</p>
                     <div class="rounded-bl-lg rounded-br-lg tooltip">
@@ -21,7 +21,7 @@
                 </NuxtLink>
             </div>
             <div class="point rounded-lg has-tooltip top-[100px] left-[100px]">
-                <NuxtLink href="../zoo/zoo-brno" >
+                <NuxtLink href="../zoo-dvorec" >
                     <div class="arrow"></div>
                     <p class="font-bold mt-2 px-5 text-white text-center">Zoo Dvorec</p>
                     <div class="rounded-bl-lg rounded-br-lg tooltip">
@@ -31,7 +31,7 @@
                 </NuxtLink>
             </div>
             <div class="point rounded-lg has-tooltip top-[300px] left-[200px]">
-                <NuxtLink href="../zoo/zoo-brno" >
+                <NuxtLink href="../zoo-na-hradecku" >
                     <div class="arrow"></div>
                     <p class="font-bold mt-2 px-5 text-white text-center">Zoo na Hrádečku</p>
                     <div class="rounded-bl-lg rounded-br-lg tooltip">
@@ -41,7 +41,7 @@
                 </NuxtLink>
             </div>
             <div class="point rounded-lg has-tooltip top-[150px] left-[400px]">
-                <NuxtLink href="../zoo/zoo-brno" >
+                <NuxtLink href="../zoo-tabor" >
                     <div class="arrow"></div>
                     <p class="font-bold mt-2 px-5 text-white text-center">Zoo Tábo</p>
                     <div class="rounded-bl-lg rounded-br-lg tooltip">

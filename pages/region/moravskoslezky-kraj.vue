@@ -11,7 +11,7 @@
         <img class="w-[500px]" src="../../assets/regions/moravskoslezsky.svg" alt="">
 
         <div class="point rounded-lg has-tooltip top-[200px] left-[300px]">
-            <NuxtLink href="../zoo/zoo-brno" >
+            <NuxtLink href="../zoo-ostrava" >
                 <div class="arrow"></div>
                 <p class="font-bold mt-2 px-5 text-white text-center">Zoo Ostrava</p>
                 <div class="rounded-bl-lg rounded-br-lg tooltip">

@@ -95,7 +95,7 @@ const navClass = computed(() => {
       nav: {
         landscape: "nav-picture-1 text-white h-[300px]",
         homepage: "text-white h-[100px]",
-        zoo: "text-white  h-[300px]",
+        zoo: "text-white h-[300px]",
       },
     },
   })({
@@ -143,11 +143,11 @@ export default {
 .nav-picture-1 {
   background-image: url(../assets/images/landscape.png);
 }
-.nav-picture-2 {
+.zoo-jihlava {
   background-image: url(../assets/images/zoo-jihlava.png);
   
 }
-.nav-picture-3 {
+.zoo-brno  {
   background-image: url(../assets/images/zoo-brno.jpg);
   background-size:     cover;                   
   background-repeat:   no-repeat;

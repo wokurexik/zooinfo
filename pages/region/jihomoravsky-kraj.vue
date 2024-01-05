@@ -11,7 +11,7 @@
             <img class="w-[500px]" src="../../assets/regions/jihomoravsky.svg" alt="">
 
             <div class="point rounded-lg has-tooltip top-[100px] left-[300px]">
-                <NuxtLink href="../zoo/zoo-brno" >
+                <NuxtLink href="../zoo-brno" >
                     <div class="arrow"></div>
                     <p class="font-bold mt-2 px-5 text-white text-center">Zoo Brno</p>
                     <div class="rounded-bl-lg rounded-br-lg tooltip">
@@ -21,7 +21,7 @@
                 </NuxtLink>
             </div>
             <div class="point rounded-lg has-tooltip top-[200px] left-[200px]">
-                <NuxtLink href="../zoo/zoo-brno" >
+                <NuxtLink href="../zoo-hodonin" >
                     <div class="arrow"></div>
                     <p class="font-bold mt-2 px-5 text-white text-center">Zoo Hodonín</p>
                     <div class="rounded-bl-lg rounded-br-lg tooltip">

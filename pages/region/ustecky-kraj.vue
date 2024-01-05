@@ -13,7 +13,7 @@
         <img class="w-[500px]" src="../../assets/regions/ustecky.svg" alt="">
         
         <div class="point rounded-lg has-tooltip top-[200px] left-[300px]">
-            <NuxtLink href="../zoo/zoo-jihlava" >
+            <NuxtLink href="../usti-nad-labem" >
                 <div class="arrow"></div>
                 <p class="font-bold mt-2 px-5 text-white">Zoo Ústí nad Labem</p>
                 <div class="rounded-bl-lg rounded-br-lg tooltip">
@@ -23,7 +23,7 @@
             </NuxtLink>
         </div>
         <div class="point rounded-lg has-tooltip top-[300px] left-[200px]">
-            <NuxtLink href="../zoo/zoo-jihlava" >
+            <NuxtLink href="../zoopark-chomutov" >
                 <div class="arrow"></div>
                 <p class="font-bold mt-2 px-5 text-white text-center">Zoopark Chomutov</p>
                 <div class="rounded-bl-lg rounded-br-lg tooltip">

@@ -1,12 +1,8 @@
 <template>
     <div>
-        <div class="nav-picture-2">
-    <Navbar 
-    nav="zoo" 
-    btn="white">
-   {{ info.title }}
-  </Navbar>
-  </div>
+        <div :class=route.params.id>
+            <Navbar  nav="zoo" btn="white">{{ info.title }}</Navbar>
+        </div>
     <section>
         <hr>
         <div class="flex gap-[50px] justify-center mt-[20px] mb-[100px]">
@@ -43,28 +39,34 @@
             <h1 class="text-[30px] mb-3 font-bold">Úvod</h1>
             <p class=" mb-5 w-[600px]">{{ info.content }}</p>
               
-              <a class="underline" href="">Webové stránky Zoologické zahrady Jihlava</a>
+              <a class="underline" :href=info.website>Webové stránky Zoologické zahrady Jihlava</a>
               
               <div class="mt-5">
                 <h2 class="text-[30px] font-bold">Hodnocení návštěvníků</h2>
                 <p class="text-[30px]">{{ info.reviewStars }}⭐</p>
-              </div>
+              </div>  
             </div>
+
+            
             <div>
               <iframe :src="info.mapLink" width="400" height="300" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
-          <div class="flex flex-wrap ">
+
+          <div v-if="info.component === 'Navbar'">
+            <Navbar :nav="info.nav" :btn="info.btn" />
           </div>
+
+
+          <div class="flex imgs-div flex-wrap gap-3 w-[1000px] mx-auto mt-[200px] justify-center">
+             <img v-for="(img, index) in info.images" :key="index" class="w-[300px] h-[300px] object-cover" :src="img" alt="">
+          </div>
+
         </section>
     </div>
   
     <Head>
       <Title>{{ info.title }}</Title>
-      <Meta
-        name="description"
-        content="Build your next Vue.js application with confidence using Nuxt...."
-      />
     </Head>
   
   </template>

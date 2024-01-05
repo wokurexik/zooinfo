@@ -1,26 +1,33 @@
 {
-    "zoo-jihlava": {
-      "id": 1,
-      "title": "Zoo Jihlava",
-      "content": "V údolí říčky Jihlávky leží Zoo Jihlava, která je domovem více než 200 druhů zvířat. V posledních letech zoologická zahrada prochází velkým vývojem a postavila několik nových pavilonů. Zoo je známá tím, že chová perské levharty, které mají v České republice pouze v Zoo Dvůr Králové.",
-      "website": "/",
-      "city": "Brno",
-      "openHours": "9:00 - 16:00",
-      "ticketPrice": "150 Kč / 100 Kč",
-      "mapLink": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d41574.28733132593!2d15.569331297656266!3d49.363637102814955!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470d1a6d95913ee9%3A0x7fe8c368f01569f7!2sZoologick%C3%A1%20zahrada%20Jihlava!5e0!3m2!1scs!2scz!4v1704482289331!5m2!1scs!2scz",
-      "reviewStars":"4,7",
-      "imgs":[
-        ""
-      ]
-    },
-    "zoo-brno": {
-      "id": 2,
-      "title": "Zoo Brno",
-      "content": "dej piko"
-    },
-    "default": {
-      "title": "Default Information",
-      "content": "This is the default content."
-    }
+  "zoo-jihlava": {
+    "id": 1,
+    "title": "Zoo Jihlava",
+    "content": "V údolí říčky Jihlávky leží Zoo Jihlava, která je domovem více než 200 druhů zvířat. V posledních letech zoologická zahrada prochází velkým vývojem a postavila několik nových pavilonů. Zoo je známá tím, že chová perské levharty, které mají v České republice pouze v Zoo Dvůr Králové.",
+    "website": "https://zoojihlava.cz/",
+    "city": "Jihlava",
+    "openHours": "9:00 - 16:00",
+    "ticketPrice": "150 Kč / 100 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d41574.28733132593!2d15.569331297656266!3d49.363637102814955!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470d1a6d95913ee9%3A0x7fe8c368f01569f7!2sZoologick%C3%A1%20zahrada%20Jihlava!5e0!3m2!1scs!2scz!4v1704482289331!5m2!1scs!2scz",
+    "reviewStars":"4,7",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-brno": {
+    "id": 2,
+    "title": "Zoo Brno",
+    "content": "Zoo Brno se může pochlubit jednou z největších expozic se slony ve střední Evropě. S důrazem na ochranu ohrožených druhů zvířat a rozmanitou kolekci, představuje atraktivní destinaci pro milovníky přírody.",
+    "website": "https://www.zoobrno.cz/",
+    "city": "Brno",
+    "openHours": "9:00 - 16:00",
+    "ticketPrice": "180 Kč / 130 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.462649043917!2d16.530091877957986!3d49.229717074501416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471296d026006ff9%3A0x8898e124f3d5cd9a!2sZoo%20Brno!5e0!3m2!1scs!2scz!4v1704483825244!5m2!1scs!2scz",
+    "reviewStars":"4,4",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
   }
+}
 

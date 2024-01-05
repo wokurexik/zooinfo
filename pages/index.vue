@@ -35,7 +35,7 @@ export default {
   },
   mounted() {
     this.intervalIdText = setInterval(this.changeText, 5000);
-    this.intervalIdBackground = setInterval(this.changeBackgroundImage, 10000);
+    this.intervalIdBackground = setInterval(this.changeBackgroundImage, 5000);
   },
   beforeDestroy() {
     clearInterval(this.intervalIdText);
