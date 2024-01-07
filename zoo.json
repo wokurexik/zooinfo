@@ -23,7 +23,282 @@
     "openHours": "9:00 - 16:00",
     "ticketPrice": "180 Kč / 130 Kč",
     "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.462649043917!2d16.530091877957986!3d49.229717074501416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471296d026006ff9%3A0x8898e124f3d5cd9a!2sZoo%20Brno!5e0!3m2!1scs!2scz!4v1704483825244!5m2!1scs!2scz",
+    "reviewStars":"4,2",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-praha": {
+    "id": 3,
+    "title": "Zoo Praha",
+    "content": "Zoo Praha, jedna z největších v Evropě, přináší návštěvníkům exotický svět  rozmanitých zvířat v realistických expozicích. S moderním přístupem k ochraně přírody a aktivním zapojením do chovu ohrožených druhů je to destinace pro všechny věkové skupiny.",
+    "website": "https://www.zoopraha.cz/",
+    "city": "Prague",
+    "openHours": "9:00 - 16:00",
+    "ticketPrice": "300 Kč / 200 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2558.3200880582103!2d14.403626377038552!3d50.1177320715305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bead4f9db039b%3A0x96d9543c02ebb5bd!2sZoo%20Praha!5e0!3m2!1scs!2scz!4v1704660762751!5m2!1scs!2scz",
     "reviewStars":"4,4",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-chleby": {
+    "id": 4,
+    "title": "Zoo Chleby",
+    "content": "Zoologická zahrada Chleby se věnuje ochraně ohrožených druhů a poskytuje prostor pro pestrý výběr zvířat. Návštěvníci zde mohou aktivně podpořit projekty na zachování biodiverzity a prozkoumat různé ekosystémy.",
+    "website": "https://www.zoopraha.cz/",
+    "city": "Prague",
+    "openHours": "9:00 - 16:00",
+    "ticketPrice": "200 Kč / 150 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2552.721777551407!2d15.087654526953118!3d50.2224194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470c05164d0075ed%3A0x280f367a1f825ffe!2sZOO%20Chleby%2C%20o.%20p.%20s.!5e0!3m2!1scs!2scz!4v1704660739698!5m2!1scs!2scz",
+    "reviewStars":"4,3",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "safari-dvur-kralove": {
+    "id": 5,
+    "title": "Safari Park Dvůr Králové",
+    "content": "Dvůr Králové nad Labem s jedinečným zaměřením na africké druhy, včetně vzácných nosorožců, nabízí neopakovatelný pohled na faunu. S ohledem na ochranu ohrožených druhů a autentickým africkým prostředím poskytuje nezapomenutelný zážitek pro všechny návštěvníky.",
+    "website": "https://safaripark.cz/",
+    "city": "Hradec Kralové",
+    "openHours": "9:00 - 16:00",
+    "ticketPrice": "250 Kč / 160 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.337529625332!2d15.796088077529646!3d50.43481337158929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470e858b2a50c6a1%3A0x5b8fc0512d9d0aa1!2zU2FmYXJpIFBhcmsgRHbFr3IgS3LDoWxvdsOp!5e0!3m2!1scs!2scz!4v1704661463995!5m2!1scs!2scz",
+    "reviewStars":"4,6",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-usti-nad-labem": {
+    "id": 6,
+    "title": "Zoo Ústí nad Labem",
+    "content": "Ústecká zoologická zahrada přináší širokou škálu zvířat v moderních expozicích. S důrazem na vzdělávání a ochranu ohrožených druhů zvířat se stává ideálním místem pro rodinný výlet",
+    "website": "https://www.zoousti.cz/",
+    "city": "Ústí nad Labem",
+    "openHours": "9:00 - 16:00",
+    "ticketPrice": "120 Kč / 60 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12746.409726730679!2d14.052180585614565!3d50.660395440188175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47099cad21a8e27b%3A0x25bada10389215ab!2sZoologick%C3%A1%20zahrada%20%C3%9Ast%C3%AD%20nad%20Labem!5e0!3m2!1scs!2scz!4v1704661277912!5m2!1scs!2scz",
+    "reviewStars":"4,3",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoopark-chomutov": {
+    "id": 7,
+    "title": "Zoopark Chomutov",
+    "content": "Chomutovský zoopark vyniká svými prostornými výběhy a zdůrazňuje ochranu ohrožených druhů. V areálu naleznete rozmanitou sbírku zvířat a můžete se účastnit různých akcí pro celou rodinu.",
+    "website": "https://zoopark.cz/",
+    "city": "Chomutov",
+    "openHours": "9:00 - 18:00",
+    "ticketPrice": "120 Kč / 60 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.25877955278!2d13.417702677531095!3d50.47352597159669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470a1b771fdf127b%3A0x79f954956ba73b4e!2sZoopark%20Chomutov!5e0!3m2!1scs!2scz!4v1704661582701!5m2!1scs!2scz",
+    "reviewStars":"4,4",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-decin": {
+    "id": 8,
+    "title": "",
+    "content": "",
+    "website": "",
+    "city": "",
+    "openHours": "",
+    "ticketPrice": "",
+    "mapLink": "",
+    "reviewStars":"",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-plzen": {
+    "id": 8,
+    "title": "Zoo Plzeň",
+    "content": "Plzeňská zoologická zahrada láká návštěvníky svými moderními expozicemi aúspěšným chovem ohrožených druhů. Zdejší prostředí nabízí jedinečnou možnost sledovat vzácná zvířata ve skvěle koncipovaných pavilonech a prostorných výbězích.",
+    "website": "https://www.zooplzen.cz/",
+    "city": "Plzen",
+    "openHours": "9:00 - 17:00",
+    "ticketPrice": "220 Kč / 160 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2577.476652455227!2d13.353559577503674!3d49.75829027146821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470af2192e8283e5%3A0xc64e742a6d5e0717!2sZoologick%C3%A1%20a%20botanick%C3%A1%20zahrada%20m%C4%9Bsta%20Plzn%C4%9B!5e0!3m2!1scs!2scz!4v1704661884123!5m2!1scs!2scz",
+    "reviewStars":"4,7",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-plasy": {
+    "id": 9,
+    "title": "Zoo Plasy",
+    "content": "Zoo Plasy v historickém prostředí kláštera láká návštěvníky na poutavou prohlídku různých druhů zvířat. Atmosféra klidného klášterního areálu dodává návštěvě zvláštní kouzlo.",
+    "website": "https://www.zooplasy.cz/",
+    "city": "Plasy",
+    "openHours": "10:00 - 16:00",
+    "ticketPrice": "180 Kč / 90 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2568.192029558431!2d13.3872920775104!3d49.932737971498014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470a5fa66b01ca69%3A0xf0872235e9c11326!2sZoo%20Plasy!5e0!3m2!1scs!2scz!4v1704662087963!5m2!1scs!2scz",
+    "reviewStars":"4,6",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-liberec": {
+    "id": 10,
+    "title": "Zoo Liberec",
+    "content": "Liberecká zoologická zahrada, situovaná v krásném přírodním prostředí, nabízí široký výběr zvířat. Moderní expozice a aktivní účast na projektech na ochranu přírody činí návštěvu Liberce atraktivním zážitkem.",
+    "website": "https://www.zooliberec.cz",
+    "city": "Liberec",
+    "openHours": "9:00 - 15:00",
+    "ticketPrice": " 145 Kč / 105 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10091.523384464053!2d15.062660794214397!3d50.777782347609104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470934053308bfd3%3A0x4aa345f26700a6cf!2sZoo%20Liberec!5e0!3m2!1scs!2scz!4v1704663134957!5m2!1scs!2scz",    "reviewStars":"4,1",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-tabor": {
+    "id": 11,
+    "title": "Zoo Tábor",
+    "content": "Táborská zoologická zahrada láká návštěvníky pohodlným prostorem a různými druhy zvířat. Klidná atmosféra a příležitost objevovat unikátní ekosystémy dělají z návštěvy Tábora nezapomenutelný zážitek.",
+    "website": "https://www.zootabor.eu/",
+    "city": "Tábor",
+    "openHours": "9:00 - 16:00",
+    "ticketPrice": " 180 Kč / 100 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10388.392853187925!2d14.630761989317328!3d49.38813413491749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470ca2c3c9ac5ef7%3A0xdb9ae1b6e29dd01d!2sZOO%20T%C3%A1bor!5e0!3m2!1scs!2scz!4v1704663238642!5m2!1scs!2scz",
+    "reviewStars":"4,2",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-hluboka": {
+    "id": 12,
+    "title": "Zoo Hluboká",
+    "content": "Zoologická zahrada Hluboká nad Vltavou spojuje krásu přírody s fascinujícím světem zvířat. Umístěná v historickém parku u zámku Hluboká, nabízí návštěvníkům poutavou kombinaci kulturního dědictví a života zvířat.",
+    "website": "https://zoohluboka.cz/",
+    "city": "Hluboká nad Vltavou",
+    "openHours": "8:30 - 16:00",
+    "ticketPrice": "150 Kč / 110 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d266404.7010055335!2d14.222168863280055!3d48.91049092280931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477353cf8d8e50ad%3A0x605df2787cba9e6e!2sJiho%C4%8Desk%C3%A1%20zoologick%C3%A1%20zahrada%20Hlubok%C3%A1%20nad%20Vltavou!5e0!3m2!1scs!2scz!4v1704663448635!5m2!1scs!2scz",
+    "reviewStars":"4,6",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-dvorec": {
+    "id": 13,
+    "title": "Zoo Dvorec",
+    "content": "Zoo Dvorec se nachází v historickém prostředí zámku a láká návštěvníky na prohlídku pestrobarevné sbírky zvířat. Přátelská atmosféra a unikátní prostředí dělají z návštěvy nezapomenutelný zážitek.",
+    "website": "https://www.zoodvorec.cz/",
+    "city": "Dvorec",
+    "openHours": "11:00 - 16:00",
+    "ticketPrice": "200 Kč / 90 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2168683315213!2d14.652060213037096!3d48.873142171214624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4773388b96ad1307%3A0xf36e249f83b8b25e!2sZoo%20Dvorec!5e0!3m2!1scs!2scz!4v1704663747545!5m2!1scs!2scz",
+    "reviewStars":"4,5",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-na-hradecku": {
+    "id": 14,
+    "title": "Zoo na Hrádečku",
+    "content": "none",
+    "website": "https://zoonahradecku.cz",
+    "city": "Jindřichuv Hradec",
+    "openHours": "10:00 - 16:00",
+    "ticketPrice": "150 Kč / 90 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81224.1734750282!2d14.922649741595238!3d49.09362751989242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470cd22fae73cb73%3A0x3903da1aaf98146c!2zWm9vIE5hIEhyw6FkZcSNa3U!5e0!3m2!1scs!2scz!4v1704664108735!5m2!1scs!2scz"
+    ,
+    "reviewStars":"4,7",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-hodonin": {
+    "id": 15,
+    "title": "Zoo Hodonin",
+    "content": "Zoologická zahrada v Hodoníně láká návštěvníky svými prostrannými expozicemi a různými druhy zvířat. Příjemné prostředí a aktivní účast na projektech na ochranu biodiverzity dělají z Hodonína ideální destinaci pro milovníky přírody.",
+    "website": "https://www.zoo-hodonin.cz/",
+    "city": "Hodonín",
+    "openHours": "9:00 - 16:00",
+    "ticketPrice": "150 Kč / 100 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.67733530927!2d17.10441211303677!3d48.864362971213176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47132f1c324a4ba5%3A0xc33985455239ce28!2sZoologick%C3%A1%20zahrada%20Hodon%C3%ADn!5e0!3m2!1scs!2scz!4v1704664804433!5m2!1scs!2scz"
+    ,
+    "reviewStars":"4,4",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-olomouc": {
+    "id": 16,
+    "title": "Zoo Olomouc",
+    "content": "Olomoucká zoologická zahrada představuje různorodou kolekci zvířat v moderních expozicích. Edukační programy a péče o ohrožené druhy poskytují návštěvníkům poutavý pohled na svět přírody.",
+    "website": "https://www.zoo-olomouc.cz/",
+    "city": "Olomouc",
+    "openHours": "9:00 - 16:00",
+    "ticketPrice": "110 Kč / 80 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2584.1065987219436!2d17.340786813065925!3d49.633445471328415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47124b9398f6531f%3A0x9fd1e84c88c7652c!2sZOO%20Olomouc!5e0!3m2!1scs!2scz!4v1704665063115!5m2!1scs!2scz"
+    ,
+    "reviewStars":"4,4",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoopark-vyyskov": {
+    "id": 17,
+    "title": "Zoopark Vyškov",
+    "content": "Vyškovský zoopark přivítá návštěvníky s pestrým výběrem exotických zvířat a moderními expozicemi, poskytujícími nezapomenutelné zážitky. S rodinnou atmosférou a aktivním přístupem k ochraně přírody je ideálním místem pro krásný den strávený v blízkosti fascinujících druhů zvířat. Zoopark Vyškov nabízí nejen edukaci, ale také příjemné prostředí pro rodiny a všechny milovníky přírody.",
+    "website": "https://www.zoo-vyskov.cz/",
+    "city": "Vyškov",
+    "openHours": "9:00 - 16:00",
+    "ticketPrice": "80 Kč / 50 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16060.7649178533!2d16.98799309321571!3d49.26636195677039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4712fac033c36db5%3A0xa348e89e883ccf6e!2sZOO%20PARK%20Vy%C5%A1kov!5e0!3m2!1scs!2scz!4v1704665208313!5m2!1scs!2scz"
+    ,
+    "reviewStars":"4,5",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-ostrava": {
+    "id": 18,
+    "title": "Zoo Ostrava",
+    "content": "Zoologická zahrada a botanický park v Ostravě spojuje chov zvířat s krásou botanické zahrady. Návštěvníci zde mohou prozkoumat různorodost flóry a fauna, čímž se Ostrava stává atraktivní destinací pro rodiny i milovníky přírody.",
+    "website": "https://www.zoo-ostrava.cz/",
+    "city": "Ostrava",
+    "openHours": "9:00 - 16:00",
+    "ticketPrice": "110 Kč / 60 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.786156051402!2d18.320716013074257!3d49.846475471364165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713fcd6019327d7%3A0xe616227d2fd39db6!2sZoologick%C3%A1%20zahrada%20a%20botanick%C3%BD%20park%20Ostrava!5e0!3m2!1scs!2scz!4v1704665321396!5m2!1scs!2scz"
+    ,
+    "reviewStars":"4,7",
+    "images": [
+      "img/zoo-photos/hello.jpg",
+      "img/zoo-photos/hello.jpg"
+    ]      
+  },
+  "zoo-zlin": {
+    "id": 19,
+    "title": "Zoo Zlín",
+    "content": "ZOO a zámek Zlín-Lešná vytváří harmonické spojení chovu zvířat s historickým dědictvím. Návštěvníci mohou obdivovat pestrou paletu exotických zvířat v jedinečném prostředí kolem zámku.",
+    "website": "https://www.zoozlin.eu/",
+    "city": "Zlin",
+    "openHours": "8:30 - 16:00",
+    "ticketPrice": "125 Kč / 85 Kč",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.252951292152!2d17.71221144191161!3d49.27160397151037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471375225e4c0d7f%3A0x5822d4b15eb79800!2zWk9PIGEgesOhbWVrIFpsw61uLUxlxaFuw6E!5e0!3m2!1scs!2scz!4v1704665539991!5m2!1scs!2scz"
+    ,
+    "reviewStars":"4,8",
     "images": [
       "img/zoo-photos/hello.jpg",
       "img/zoo-photos/hello.jpg"

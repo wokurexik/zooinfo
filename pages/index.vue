@@ -13,7 +13,7 @@
       <Map/>
     </div>
   </div>
-  <ZooTypes/>
+  <!-- <ZooTypes/> -->
 
 <TheMostVisited/>
 

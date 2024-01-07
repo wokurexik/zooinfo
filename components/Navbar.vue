@@ -36,7 +36,7 @@
         </nav>
     </div>
       <div class="text-[100px] text-white font-bold absolute left-[50%] top-[90px]">
-        <div class="relative left-[-50%]">
+        <div class="relative left-[-50%] w-[1000Px]">
           <slot/>
         </div>
       </div>
