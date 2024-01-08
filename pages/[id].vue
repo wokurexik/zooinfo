@@ -69,18 +69,27 @@
   <script setup>
   import { ref, onMounted } from 'vue';
   import axios from 'axios';
-  import { useRoute } from 'vue-router';
-  
+  import { useRoute, useRouter } from 'vue-router';
+
   import jsonData from '../../zoo.json';
-  
+
   const route = useRoute();
+  const router = useRouter();
   const info = ref({});
   const temperature = ref(null);
-  
+
   onMounted(async () => {
     const id = route.params.id;
     info.value = jsonData[id] || jsonData['default'];
-  
+
+    // Check if the info is empty, indicating that the ID was not found
+    if (!info.value || !info.value.id) {
+      // Redirect to the "Not Found" page or handle it as appropriate
+      router.replace('/not-found');
+      return;
+    }
+
+
     try {
       const response = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${info.value.city}&appid=0518746354b04b148bc704380b98c474&units=metric`
@@ -90,5 +99,5 @@
       console.error('Error fetching weather data:', error);
     }
   });
-  </script>
+</script>
   
