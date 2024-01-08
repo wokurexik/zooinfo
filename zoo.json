@@ -98,6 +98,7 @@
   "zoopark-chomutov": {
     "id": 7,
     "title": "Zoopark Chomutov",
+    "path":"zoopark-chomutov",
     "content": "Chomutovský zoopark vyniká svými prostornými výběhy a zdůrazňuje ochranu ohrožených druhů. V areálu naleznete rozmanitou sbírku zvířat a můžete se účastnit různých akcí pro celou rodinu.",
     "website": "https://zoopark.cz/",
     "city": "Chomutov",
@@ -112,6 +113,7 @@
   },
   "zoo-decin": {
     "id": 8,
+    "path":"zoo-decin",
     "title": "",
     "content": "",
     "website": "",
@@ -127,6 +129,7 @@
   },
   "zoo-plzen": {
     "id": 8,
+    "path":"zoo-plzen",
     "title": "Zoo Plzeň",
     "content": "Plzeňská zoologická zahrada láká návštěvníky svými moderními expozicemi aúspěšným chovem ohrožených druhů. Zdejší prostředí nabízí jedinečnou možnost sledovat vzácná zvířata ve skvěle koncipovaných pavilonech a prostorných výbězích.",
     "website": "https://www.zooplzen.cz/",
@@ -142,6 +145,7 @@
   },
   "zoo-plasy": {
     "id": 9,
+    "path":"zoo-plasy",
     "title": "Zoo Plasy",
     "content": "Zoo Plasy v historickém prostředí kláštera láká návštěvníky na poutavou prohlídku různých druhů zvířat. Atmosféra klidného klášterního areálu dodává návštěvě zvláštní kouzlo.",
     "website": "https://www.zooplasy.cz/",
@@ -157,6 +161,7 @@
   },
   "zoo-liberec": {
     "id": 10,
+    "path":"zoo-librec",
     "title": "Zoo Liberec",
     "content": "Liberecká zoologická zahrada, situovaná v krásném přírodním prostředí, nabízí široký výběr zvířat. Moderní expozice a aktivní účast na projektech na ochranu přírody činí návštěvu Liberce atraktivním zážitkem.",
     "website": "https://www.zooliberec.cz",
@@ -172,6 +177,7 @@
   },
   "zoo-tabor": {
     "id": 11,
+    "path":"zoo-tabor",
     "title": "Zoo Tábor",
     "content": "Táborská zoologická zahrada láká návštěvníky pohodlným prostorem a různými druhy zvířat. Klidná atmosféra a příležitost objevovat unikátní ekosystémy dělají z návštěvy Tábora nezapomenutelný zážitek.",
     "website": "https://www.zootabor.eu/",
@@ -187,6 +193,7 @@
   },
   "zoo-hluboka": {
     "id": 12,
+    "path":"zoo-hluboka",
     "title": "Zoo Hluboká",
     "content": "Zoologická zahrada Hluboká nad Vltavou spojuje krásu přírody s fascinujícím světem zvířat. Umístěná v historickém parku u zámku Hluboká, nabízí návštěvníkům poutavou kombinaci kulturního dědictví a života zvířat.",
     "website": "https://zoohluboka.cz/",
@@ -202,6 +209,7 @@
   },
   "zoo-dvorec": {
     "id": 13,
+    "path":"zoo-dvorec",
     "title": "Zoo Dvorec",
     "content": "Zoo Dvorec se nachází v historickém prostředí zámku a láká návštěvníky na prohlídku pestrobarevné sbírky zvířat. Přátelská atmosféra a unikátní prostředí dělají z návštěvy nezapomenutelný zážitek.",
     "website": "https://www.zoodvorec.cz/",
@@ -217,6 +225,7 @@
   },
   "zoo-na-hradecku": {
     "id": 14,
+    "path":"zoo-na-hradecku",
     "title": "Zoo na Hrádečku",
     "content": "none",
     "website": "https://zoonahradecku.cz",
@@ -232,6 +241,7 @@
   },
   "zoo-hodonin": {
     "id": 15,
+    "path":"zoo-hodonin",
     "title": "Zoo Hodonin",
     "content": "Zoologická zahrada v Hodoníně láká návštěvníky svými prostrannými expozicemi a různými druhy zvířat. Příjemné prostředí a aktivní účast na projektech na ochranu biodiverzity dělají z Hodonína ideální destinaci pro milovníky přírody.",
     "website": "https://www.zoo-hodonin.cz/",
@@ -247,6 +257,7 @@
   },
   "zoo-olomouc": {
     "id": 16,
+    "path":"zoo-olomouc",
     "title": "Zoo Olomouc",
     "content": "Olomoucká zoologická zahrada představuje různorodou kolekci zvířat v moderních expozicích. Edukační programy a péče o ohrožené druhy poskytují návštěvníkům poutavý pohled na svět přírody.",
     "website": "https://www.zoo-olomouc.cz/",
@@ -262,6 +273,7 @@
   },
   "zoopark-vyyskov": {
     "id": 17,
+    "path":"zoopark-vyskov",
     "title": "Zoopark Vyškov",
     "content": "Vyškovský zoopark přivítá návštěvníky s pestrým výběrem exotických zvířat a moderními expozicemi, poskytujícími nezapomenutelné zážitky. S rodinnou atmosférou a aktivním přístupem k ochraně přírody je ideálním místem pro krásný den strávený v blízkosti fascinujících druhů zvířat. Zoopark Vyškov nabízí nejen edukaci, ale také příjemné prostředí pro rodiny a všechny milovníky přírody.",
     "website": "https://www.zoo-vyskov.cz/",
@@ -277,13 +289,14 @@
   },
   "zoo-ostrava": {
     "id": 18,
+    "path":"zoo-ostrava",
     "title": "Zoo Ostrava",
     "content": "Zoologická zahrada a botanický park v Ostravě spojuje chov zvířat s krásou botanické zahrady. Návštěvníci zde mohou prozkoumat různorodost flóry a fauna, čímž se Ostrava stává atraktivní destinací pro rodiny i milovníky přírody.",
     "website": "https://www.zoo-ostrava.cz/",
     "city": "Ostrava",
     "openHours": "9:00 - 16:00",
     "ticketPrice": "110 Kč / 60 Kč",
-"mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.786156051402!2d18.320716013074257!3d49.846475471364165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713fcd6019327d7%3A0xe616227d2fd39db6!2sZoologick%C3%A1%20zahrada%20a%20botanick%C3%BD%20park%20Ostrava!5e0!3m2!1scs!2scz!4v1704665321396!5m2!1scs!2scz",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.786156051402!2d18.320716013074257!3d49.846475471364165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713fcd6019327d7%3A0xe616227d2fd39db6!2sZoologick%C3%A1%20zahrada%20a%20botanick%C3%BD%20park%20Ostrava!5e0!3m2!1scs!2scz!4v1704665321396!5m2!1scs!2scz",
     "reviewStars":"4.7",
     "images": [
       "img/zoo-photos/hello.jpg",
@@ -292,6 +305,7 @@
   },
   "zoo-zlin": {
     "id": 19,
+    "path":"zoo-zlin",
     "title": "Zoo Zlín",
     "content": "ZOO a zámek Zlín-Lešná vytváří harmonické spojení chovu zvířat s historickým dědictvím. Návštěvníci mohou obdivovat pestrou paletu exotických zvířat v jedinečném prostředí kolem zámku.",
     "website": "https://www.zoozlin.eu/",

@@ -64,6 +64,16 @@ svg {
     fill: #F3B664;
     transition: all ease 0.3s;
 }
+
+@media  only screen and (max-width: 600px  ) { 
+  svg {
+  height: 400px;
+  margin: 0px auto 0px auto;
+  width: 400Px;
+}
+
+
+}
 </style>
 
 <script>

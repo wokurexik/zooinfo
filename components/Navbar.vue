@@ -3,7 +3,7 @@
         <nav class=" flex justify-between pt-[20px] mx-5">
           <NuxtLink to="/"  class="name ml-5 font-extrabold text-[30px]">ZOOINFO.CZ</NuxtLink>
           <div class="my-auto flex gap-[50px]">
-            <Popover class="relative ">
+            <Popover class="relative lg:block sm:hidden">
               <PopoverButton :class="btnClass">
                 <span>Kam jedete?</span>
                 <ChevronDownIcon class="arrow-drop h-5 w-5" aria-hidden="true" />
@@ -26,7 +26,7 @@
               </transition>
             </Popover>
           </div>
-          <div class="nav-links flex gap-[50px] mr-5">
+          <div class="nav-links sm:hidden lg:flex gap-[50px] mr-5">
             <NuxtLink to="/">
               <BaseBtn >
                 <span>Kontakt</span>
