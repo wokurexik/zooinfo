@@ -16,7 +16,7 @@
                 <p class="font-bold mt-2 px-5 text-center text-white">Zoo Dvůr Králové</p>
                 <div class="rounded-bl-lg rounded-br-lg tooltip">
                     <p class="text-[15px] mt-3">Hodnocení</p>
-                    <img src="../../assets/regions/stars/four.svg" alt="">
+                    <p class="text-[15px]">4.6⭐</p>
                 </div>
             </NuxtLink>
         </div>

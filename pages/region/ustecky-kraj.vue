@@ -18,7 +18,7 @@
                 <p class="font-bold mt-2 px-5 text-white">Zoo Ústí nad Labem</p>
                 <div class="rounded-bl-lg rounded-br-lg tooltip">
                     <p class="text-[15px] mt-3">Hodnocení</p>
-                    <img src="../../assets/regions/stars/four.svg" alt="">
+                    <p class="text-[15px]">4.3⭐</p>
                 </div>
             </NuxtLink>
         </div>
@@ -28,7 +28,7 @@
                 <p class="font-bold mt-2 px-5 text-white text-center">Zoopark Chomutov</p>
                 <div class="rounded-bl-lg rounded-br-lg tooltip">
                     <p class="text-[15px] mt-3">Hodnocení</p>
-                    <img src="../../assets/regions/stars/four.svg" alt="">
+                    <p class="text-[15px]">4.4⭐</p>
                 </div>
             </NuxtLink>
         </div>

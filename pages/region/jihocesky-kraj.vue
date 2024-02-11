@@ -16,7 +16,7 @@
                     <p class="font-bold mt-2 px-5 text-white text-center">Zoo Hluboká</p>
                     <div class="rounded-bl-lg rounded-br-lg tooltip">
                         <p class="text-[15px] mt-3">Hodnocení</p>
-                        <img src="../../assets/regions/stars/four.svg" alt="">
+                        <p class="text-[15px]">4.6⭐</p>
                     </div>
                 </NuxtLink>
             </div>
@@ -26,7 +26,7 @@
                     <p class="font-bold mt-2 px-5 text-white text-center">Zoo Dvorec</p>
                     <div class="rounded-bl-lg rounded-br-lg tooltip">
                         <p class="text-[15px] mt-3">Hodnocení</p>
-                        <img src="../../assets/regions/stars/four.svg" alt="">
+                        <p class="text-[15px]">4.5⭐</p>
                     </div>
                 </NuxtLink>
             </div>
@@ -36,7 +36,7 @@
                     <p class="font-bold mt-2 px-5 text-white text-center">Zoo na Hrádečku</p>
                     <div class="rounded-bl-lg rounded-br-lg tooltip">
                         <small class="text-[15px] mt-3">Hodnocení</small>
-                        <img src="../../assets/regions/stars/four.svg" alt="">
+                        <p class="text-[15px]">4.7⭐</p>
                     </div>
                 </NuxtLink>
             </div>
@@ -46,7 +46,7 @@
                     <p class="font-bold mt-2 px-5 text-white text-center">Zoo Tábo</p>
                     <div class="rounded-bl-lg rounded-br-lg tooltip">
                         <small class="text-[15px] mt-3">Hodnocení</small>
-                        <img src="../../assets/regions/stars/four.svg" alt="">
+                        <p class="text-[15px]">4.2⭐</p>
                     </div>
                 </NuxtLink>
             </div>

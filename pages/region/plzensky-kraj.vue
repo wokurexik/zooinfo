@@ -16,7 +16,7 @@
                 <p class="font-bold mt-2 px-5 text-white">Zoo Plzeň</p>
                 <div class="rounded-bl-lg rounded-br-lg tooltip">
                     <p class="text-[15px] mt-3">Hodnocení</p>
-                    <img src="../../assets/regions/stars/four.svg" alt="">
+                    <p class="text-[15px]">4.7⭐</p>
                 </div>
             </NuxtLink>
         </div>
@@ -26,7 +26,7 @@
                 <p class="font-bold mt-2 px-5 text-white">Zoo Plasy</p>
                 <div class="rounded-bl-lg rounded-br-lg tooltip">
                     <p class="text-[15px] mt-3">Hodnocení</p>
-                    <img src="../../assets/regions/stars/four.svg" alt="">
+                    <p class="text-[15px]">4.6⭐</p>
                 </div>
             </NuxtLink>
         </div>
@@ -45,7 +45,7 @@ position:relative;
 margin: 0 auto;
 }
 .point{
-width: auto;
+width: 150px;
 height: 40px;
 /* border-radius: 20PX; */
 position:absolute;
@@ -55,7 +55,7 @@ justify-content: center;
 background-color:#006833;
 }
 .tooltip {
-width: auto;
+width: 150px;
 color: white;
 padding-inline: 10px !important;
 padding: 10px 0px 10px 0px;

@@ -1,7 +1,7 @@
 <template>
     <div id="app">
   
-      <div class="flex justify-content pt-5 pb-5 bg-gray-100 footer">
+      <div class="flex justify-content pt-5 pb-5 bg-gray-100 lg:mt-auto footer">
         <div class="mx-auto w-[900px]">
           <div class="flex py-5 mx-auto justify-center gap-5">
             <img src="../assets/icons/instagram.svg" alt="">

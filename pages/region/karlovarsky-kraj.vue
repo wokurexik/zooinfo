@@ -10,26 +10,7 @@
         <div class="map w-[500px]">
             <img class="w-[500px]" src="../../assets/regions/karlovarsky.svg" alt="">
 
-            <div class="point rounded-lg has-tooltip top-[100px] left-[300px]">
-                <NuxtLink href="" >
-                    <div class="arrow"></div>
-                    <p class="font-bold mt-2 px-5 text-white"></p>
-                    <div class="rounded-bl-lg rounded-br-lg tooltip">
-                        <p class="text-[15px] mt-3">Hodnocení</p>
-                        <img src="../../assets/regions/stars/four.svg" alt="">
-                    </div>
-                </NuxtLink>
-            </div>
-            <div class="point rounded-lg has-tooltip top-[200px] left-[100px]">
-                <NuxtLink href="" >
-                    <div class="arrow"></div>
-                    <p class="font-bold mt-2 px-5 text-white"></p>
-                    <div class="rounded-bl-lg rounded-br-lg tooltip">
-                        <p class="text-[15px] mt-3">Hodnocení</p>
-                        <img src="../../assets/regions/stars/four.svg" alt="">
-                    </div>
-                </NuxtLink>
-            </div>
+            
         </div>
         
     

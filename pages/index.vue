@@ -6,12 +6,19 @@
       nav="homepage">
     </Navbar>
     <div class="lg:flex lg:gap-[0Px] sm:grid lg:mt-[150Px] sm:mt-[20Px] lg:h-[500px] lg:align-middle lg:justify-center">
-      <div class="lg:mt-11 lg:text-5xl sm:text-4xl font-extrabold ml-5 ">
-        <h1 class="lg:w-[650Px] sm:leading-[50px] lg:leading-[65px] sm:w-[400Px] text-white mb-8"> Prozkoumejte <span class="text-[--primary]">{{ dynamicText }}</span> <br> po celé České Republice </h1>
-        <h2 class="font-bold text-white">Kam jedete<span class="text-[--primary]">?</span></h2>
+      <div class="md:mt-[100px] lg:mt-11 lg:text-5xl md:text-5xl sm:text-4xl font-extrabold md:ml-10 sm:ml-5 ">
+        <h1 class="lg:w-[650Px] md:w-[700px] sm:leading-[50px] lg:leading-[65px] sm:w-w-full text-white mb-8"> Prozkoumejte <span class="text-[--primary]">{{ dynamicText }}</span> <br> po celé České Republice </h1>
+        <h2 class="pb-[10px] md:mt-[50px] font-bold text-white">Kam jedete<span class="text-[--primary]">?</span></h2>
+        <div class="lg:pb-[0px] md:pb-[40px] font-normal mt-[50px]">
+          <SelectRegion/>
+        </div>
       </div>
-      <Map/>
-    </div>
+      <div class="grid gap-[40px]">
+        <div class="lg:flex max-lg:hidden flex justify-center">
+          <Map/>
+        </div>
+      </div>
+      </div>
   </div>
   <!-- <ZooTypes/> -->
 

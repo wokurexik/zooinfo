@@ -1,45 +1,45 @@
 <template>
-    <div>
-        <div :class=route.params.id>
+  <div>
+      <div class="zoo-jihlava">     <!-- :class=route.params.id -->
             <Navbar  nav="zoo" btn="white">{{ info.title }}</Navbar>
         </div>
     <section>
         <hr>
-        <div class="flex gap-[50px] justify-center mt-[20px] mb-[100px]">
-          <div class="flex gap-2">
-            <div class="my-auto">
-              <img src="../../assets/icons/clock.svg" alt="">
+        <div class="lg:flex sm:grid sm:gap-[20px] lg:gap-[100px] sm:px-[20px] justify-center mt-[20px] mb-[100px]">
+          <div class="lg:flex sm:grid gap-2 justify-center">
+            <div class="my-auto sm:mx-auto">
+              <img src="../assets/icons/ticket.svg" alt="">
             </div>
             <div class="text-center">
-              <p class="font-bold text-[20px]">Otevřené hodiny</p>
-              <small class="text-[17px]">{{info.openHours}}</small>
+              <p class="font-bold sm:text-[20px] lg:text-[20px]">Vstupné</p>
+              <small class="text-[20px]">{{info.ticketPrice}}</small>
             </div>
           </div>
-          <div class="flex gap-2">
-            <div class="my-auto">
-              <img src="../../assets/icons/ticket.svg" alt="">
+          <div class="lg:flex sm:grid gap-2 justify-center">
+            <div class="my-auto sm:mx-auto">
+              <img src="../assets/icons/clock.svg" alt="">
             </div>
             <div class="text-center">
-              <p class="font-bold text-[20px]">Vstupné</p>
-              <small class="text-[17px]">{{info.ticketPrice}}</small>
+              <p class="font-bold sm:text-[20px] lg:text-[20px]">Otevřené hodiny</p>
+              <small class="text-[20px]">{{info.openHours}}</small>
             </div>
           </div>
-          <div class="flex gap-2">
-            <div class="my-auto">
-              <img src="../../assets/icons/cloud.svg" alt="">
+          <div class="lg:flex sm:grid gap-2 justify-center">
+            <div class="my-auto  sm:mx-auto">
+              <img src="../assets/icons/cloud.svg" alt="">
             </div>
             <div class="text-center">
-              <p class="font-bold text-[20px]">Počasí</p>
+              <p class="font-bold sm:text-[20px] lg:text-[20px]">Počasí</p>
               <WeatherDisplay :temperature="temperature" />
             </div>
           </div>
         </div>
-        <div class="mx-auto flex max-w-7xl gap-[200px]">
-          <div class="">
-            <h1 class="text-[30px] mb-3 font-bold">Úvod</h1>
-            <p class=" mb-5 w-[600px]">{{ info.content }}</p>
+        <div class=" lg:mx-auto sm:grid lg:flex max-w-7xl sm:gap-[100px] lg:gap-[200px]">
+          <div class="sm:ml-[10px]">
+            <h1 class="lg:text-[30px] sm:text-[40px] mb-3 font-bold">Úvod</h1>
+            <p class="sm:w-[350px] sm:text-[20px] mb-5 lg:w-[600px]">{{ info.content }}</p>
               
-              <a class="underline" target="_blank" :href=info.website>Webové stránky {{ info.title }}</a>
+              <a class="underline text-[25px]" target="_blank" :href=info.website>Webové stránky {{ info.title }}</a>
               
               <div class="mt-5">
                 <h2 class="text-[30px] font-bold">Hodnocení návštěvníků</h2>
@@ -48,12 +48,12 @@
             </div>
 
             
-            <div>
-              <iframe :src="info.mapLink" width="400" height="300" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="flex justify-center">
+              <iframe class="sm:w-[350px] sm:h-[300px] lg:w-[400px] lg:h-[300px]" :src="info.mapLink"  style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
 
-          <div class="flex imgs-div flex-wrap gap-3 w-[1000px] mx-auto mt-[200px] justify-center">
+          <div class="lg:flex sm:grid imgs-div flex-wrap gap-3 lg:w-[1000px] mx-auto mt-[200px] justify-center">
              <img v-for="(img, index) in info.images" :key="index" class="w-[300px] h-[300px] object-cover" :src="img" alt="">
           </div>
 

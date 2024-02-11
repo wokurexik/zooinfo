@@ -65,11 +65,11 @@ svg {
     transition: all ease 0.3s;
 }
 
-@media  only screen and (max-width: 600px  ) { 
+@media  only screen and (max-width: 768px  ) { 
   svg {
   height: 400px;
-  margin: 0px auto 0px auto;
-  width: 400Px;
+  /* margin: 0px auto 0px auto; */
+  width: 300Px;
 }
 
 

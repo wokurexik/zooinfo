@@ -1,6 +1,6 @@
 <template>
     <div>
         <slot/>
-        <Footer/>
+        <div class="mt-[100px]"></div>
     </div>
 </template>

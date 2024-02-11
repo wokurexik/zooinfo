@@ -1,7 +1,7 @@
 <template>
     <div :class="navClass" class="z-0" >
-        <nav class=" flex justify-between pt-[20px] mx-5">
-          <NuxtLink to="/"  class="name ml-5 font-extrabold text-[30px]">ZOOINFO.CZ</NuxtLink>
+        <nav class=" flex sm:justify-center lg:justify-between pt-[20px] mx-5">
+          <NuxtLink to="/"  class="name lg:ml-5 font-extrabold text-[30px]">ZOOINFO.CZ</NuxtLink>
           <div class="my-auto flex gap-[50px]">
             <Popover class="relative lg:block sm:hidden">
               <PopoverButton :class="btnClass">
@@ -35,8 +35,8 @@
           </div>
         </nav>
     </div>
-      <div class="text-[100px] text-white font-bold absolute left-[50%] top-[90px]">
-        <div class="relative text-center left-[-50%] w-[1000Px]">
+      <div class="lg:text-[100px] sm:text-[60px] text-white lg:font-bold sm:font-extrabold absolute left-[50%] sm:top-[130px] lg:top-[90px]">
+        <div class="relative text-center left-[-50%] sm:w-[600px] lg:w-[1000Px]">
           <slot/>
         </div>
       </div>

@@ -13,7 +13,7 @@ export default {
   ],
   theme: {
     screens: {
-      'sm': '400px',
+      'sm': '200px',
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',

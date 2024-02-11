@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>{{ roundedTemperature }}°C</h1>
+      <h1 class="sm:text-[20px]">{{ roundedTemperature }}°C</h1>
     </div>
   </template>
   

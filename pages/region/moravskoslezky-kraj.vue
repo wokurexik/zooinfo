@@ -16,7 +16,7 @@
                 <p class="font-bold mt-2 px-5 text-white text-center">Zoo Ostrava</p>
                 <div class="rounded-bl-lg rounded-br-lg tooltip">
                     <p class="text-[15px] mt-3">Hodnocení</p>
-                    <img src="../../assets/regions/stars/four.svg" alt="">
+                    <p class="text-[15px]">4.7⭐</p>
                 </div>
             </NuxtLink>
         </div>
