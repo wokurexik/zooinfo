@@ -31,27 +31,27 @@
 
 
 .map {
-position:relative;
-margin: 0 auto;
+    position:relative;
+    margin: 0 auto;
 }
 .point{
-width: 180px;
-height: 40px;
-/* border-radius: 20PX; */
-position:absolute;
+    width: 180px;
+    height: 40px;
+    /* border-radius: 20PX; */
+    position:absolute;
 
-align-items: center;
-justify-content: center;
-background-color:#006833;
+    align-items: center;
+    justify-content: center;
+    background-color:#006833;
 }
 .tooltip {
-width: 180px;
-color: white;
-padding-inline: 10px !important;
-padding: 10px 0px 10px 0px;
-white-space: nowrap;
-height: auto;
-background-color:#006833;
+    width: 180px;
+    color: white;
+    padding-inline: 10px !important;
+    padding: 10px 0px 10px 0px;
+    white-space: nowrap;
+    height: auto;
+    background-color:#006833;
 }
 
 

@@ -1,6 +1,6 @@
 <template>
   <Listbox as="div" v-model="selected">
-    <div class="relative lg:mt-[0px] md:mt-[140px] mt-2 flex justify-center">
+    <div class="relative lg:mt-[0px] sm:pb-[30px] md:mt-[140px] mt-2 flex justify-center">
       <ListboxButton class="relative w-full cursor-default rounded-lg bg-white md:py-[20px] md:px-[30px] py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm lg:w-[650px] md:w-[600px] sm:w-[330px] ring-1  md:text-2xl ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-[--primary] sm:text-sm sm:leading-6">
         <span class="flex items-center">
           <span class="ml-3 block truncate">Vyberte kraj</span>
