@@ -1,6 +1,6 @@
 <template>
     <div :class="navClass" class="z-0" >
-        <nav class=" flex sm:justify-center lg:justify-between pt-[20px] mx-5">
+        <nav class=" flex sm:justify-center lg:justify-between pt-[20px] pb-[20px] mx-5">
           <NuxtLink to="/" class=" lg:ml-5 font-extrabold text-[30px]">ZOOINFO.CZ</NuxtLink>
           <div class="my-auto flex gap-[50px]">
             <Popover class="relative lg:block sm:hidden">
@@ -27,11 +27,11 @@
             </Popover>
           </div>
           <div class="nav-links sm:hidden lg:flex gap-[50px] mr-5">
-            <NuxtLink to="/">
+            <!-- <NuxtLink to="/">
               <BaseBtn >
                 <span>Kontakt</span>
               </BaseBtn>
-            </NuxtLink>
+            </NuxtLink> -->
           </div>
         </nav>
     </div>
@@ -96,7 +96,7 @@ const navClass = computed(() => {
         landscape: "nav-picture-1 text-white h-[300px]",
         homepage: "text-white h-[100px]",
         zoo: "text-white h-[300px]",
-        region: "text-black bg-[#F3B664] pb-2",
+        region: "text-black bg-[#F3B664] ",
       },
     },
   })({

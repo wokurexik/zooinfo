@@ -1,7 +1,7 @@
 <template>
 
     <Navbar 
-        intent="primary"
+        intent=""
         nav="region"
         />
     <div>

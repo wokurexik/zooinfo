@@ -21,7 +21,7 @@
    border-width: 0 20px 40px 20px;
    border-color: transparent transparent #006833 transparent;
    transform: rotate(270deg);
-  left: -35px;
+   left: -35px;
    position: absolute;
 }
 
@@ -48,4 +48,20 @@ padding: 10px 0px 10px 0px;
 white-space: nowrap;
 height: auto;
 background-color:#006833;
+}
+
+@media  only screen and (max-width: 768px  ) {
+  .arrow {
+   width: 0px;
+   height: 0px;
+   border-style: solid;
+   /* display: none; */
+   border-width: 0 18px 36px 18px;
+   border-color: transparent transparent #006833 transparent;
+   transform: rotate(270deg);
+   top: -0px;
+   left: -30px;
+   position: absolute;
+}
+
 }
