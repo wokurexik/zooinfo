@@ -1,6 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Zoo Info
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Zoo info is a website, where are all the information about Zoos, Minizoos, Zooparks, and more.
+
+This project is very not done :D, there is a lot of bugs and weird things happening, but we will get there eventually.
+
+For those, who don't want to install it to see, how it looks. Here are some screenshots:
+
+![obrazek](https://github.com/wokurexik/zooinfo/assets/96776458/e8ba4333-9cd5-4aff-8c0c-6059b412e32d)
+![obrazek](https://github.com/wokurexik/zooinfo/assets/96776458/5c90ea1f-0c58-4d5e-b7c5-8c140f6365c8)
+
 
 ## Setup
 
@@ -36,24 +44,6 @@ yarn dev
 
 # bun
 bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
