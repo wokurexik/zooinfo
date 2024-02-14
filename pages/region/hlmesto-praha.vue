@@ -13,7 +13,7 @@
         <div class="point rounded-lg has-tooltip sm:top-[100px] sm:left-[200px] lg:top-[100px] lg:left-[300px]">
             <NuxtLink href="../zoo-praha" >
                 <div class="arrow"></div>
-                <p class="font-bold mt-[10px] sm:text-[13px] sm:px-2 lg:px-5 text-white">Zoo Praha</p>
+                <p class="font-bold sm:text-[11px] md:text-[15px] sm:px-2 lg:px-5 text-white">Zoo Praha</p>
                 <div class="rounded-bl-lg rounded-br-lg tooltip">
                     <p class="text-[15px] mt-3">Hodnocení</p>
                     <p class="text-[15px]">4.4⭐</p>
@@ -39,7 +39,7 @@ width: 150px;
 height: 40px;
 /* border-radius: 20PX; */
 position:absolute;
-
+display: flex;
 align-items: center;
 justify-content: center;
 background-color:#006833;
@@ -52,16 +52,17 @@ padding: 10px 0px 10px 0px;
 white-space: nowrap;
 height: auto;
 background-color:#006833;
+left: 0px;
 }
 
 @media  only screen and (max-width: 768px  ) {
 
     .point{
     width: 100px;
-    height: 40px;
+    height: 36px;
     /* border-radius: 20PX; */
     position:absolute;
-
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color:#006833;

@@ -22,8 +22,21 @@
    border-color: transparent transparent #006833 transparent;
    transform: rotate(270deg);
    left: -35px;
+   top: 0px;
    position: absolute;
-}
+  }
+
+  .arrow-right {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 20px 40px 20px;
+    border-color: transparent transparent #006833 transparent;
+    transform: rotate(-270deg);
+    left: 175px;
+    top: 0px;
+    position: absolute;
+  }
 
 .map {
   position:relative;
@@ -62,6 +75,18 @@ background-color:#006833;
    top: -0px;
    left: -30px;
    position: absolute;
+}
+
+.arrow-right {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 18px 36px 18px;
+  border-color: transparent transparent #006833 transparent;
+  transform: rotate(-270deg);
+  left: 113px;
+  top: 0px;
+  position: absolute;
 }
 
 }
