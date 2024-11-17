@@ -1,4 +1,4 @@
-# Zoo Info
+# Zoo Info (This project is no longer active. Maybe I will finish it one day :))
 
 Zoo info is a website, where are all the information about Zoos, Minizoos, Zooparks, and more.
 
